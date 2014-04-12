@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appinterface"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.appinterface.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.appinterface.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.appinterface.ViewRecord"
+            android:label="@string/title_activity_view_record" >
+        </activity>
+        <activity
+            android:name="com.example.appinterface.Graph"
+            android:label="@string/title_activity_graph" >
+        </activity>
+        <activity
+            android:name="com.example.appinterface.ViewComment"
+            android:label="@string/title_activity_view_comment" >
+        </activity>
+        <activity
+            android:name="com.example.appinterface.NewComment"
+            android:label="@string/title_activity_new_comment" >
+        </activity>
+    </application>
+
+</manifest>
