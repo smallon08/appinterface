@@ -14,8 +14,8 @@ import android.widget.ListView;
 
 public class Home extends ListActivity
 {
-    private String[] menuItems = { "View Record", "View Graph", "View Comments", "New Comment" };
-    private String[] menuClassNames = { ViewRecord.class.getName(), Graph.class.getName(), ViewComment.class.getName(), NewComment.class.getName() };
+    private String[] menuItems = { "View Record", "View Graph", "View Comments", "New Comment","View Video MSG" };
+    private String[] menuClassNames = { ViewRecord.class.getName(), Graph.class.getName(), ViewComment.class.getName(), NewComment.class.getName(),ViewVidMsgActivity.class.getName() };
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

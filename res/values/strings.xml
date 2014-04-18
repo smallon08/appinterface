@@ -13,5 +13,7 @@
     <string name="title_activity_view_comment">ViewComment</string>
     <string name="title_activity_new_comment">NewComment</string>
     <string name="action_logout">Logout</string>
+    <string name="title_activity_view_vid_msg">ViewVidMsgActivity</string>
+    <string name="empty_vid_inbox">no video from patient</string>
 
 </resources>

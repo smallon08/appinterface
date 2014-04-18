@@ -15,7 +15,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme" android:name="ParseInit">
         <activity
             android:name="com.example.appinterface.MainActivity"
             android:label="@string/app_name" >
@@ -44,6 +44,10 @@
         <activity
             android:name="com.example.appinterface.NewComment"
             android:label="@string/title_activity_new_comment" >
+        </activity>
+        <activity
+            android:name="com.example.appinterface.ViewVidMsgActivity"
+            android:label="@string/title_activity_view_vid_msg" >
         </activity>
     </application>
 
